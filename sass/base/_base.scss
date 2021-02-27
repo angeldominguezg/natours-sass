@@ -9,10 +9,6 @@
 html {
     font-size: 62.5%;
 
-    // @include respond(phone) {
-    //   font-size: 50%;
-    // }
-    
     @include respond(tab-land) {
       font-size: 56.25%;    // 1rem = 9px, 9/16 = 56.25%
     }
@@ -26,4 +22,9 @@ html {
 
 body {
     box-sizing: border-box;
+    padding: 3rem;
+
+    @include respond(tab-port) {
+      padding: 0;
+    }
 }

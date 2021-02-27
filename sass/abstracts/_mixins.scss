@@ -29,6 +29,8 @@ $breakpoint arguments choice:
 
 1rem = 16px
 
+Order: Base + Typography > General Layout + Grid > Page Layout.
+
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
